@@ -4,8 +4,8 @@ li {
 
 .header {
   background-color: #6a6a6a;
+  width: 1920px;
   height: 100px;
-  width: 1920px
 }
 
 .header-logo {
@@ -23,11 +23,16 @@ li {
   font-size: 24px;
 }
 
+.header-list li:hover {
+  color: #6ca0d1
+}
 .main {
   height: 440px;
   width: 1920px;
-  background-color: #6ca0d1;
-  padding-top: 20px;
+}
+
+.copy-container:hover {
+  opacity: 0.8;
 }
 
 .copy-container h1 {
@@ -48,12 +53,15 @@ li {
   padding-right: 20px;
 }
 
+.contents-item:active {
+  opacity: 0.8;
+}
+
 .contents-item img {
   border-radius: 50px;
 }
 
 .contact-form {
-  width: 1920px;
   height: 180px;
 }
 
@@ -82,7 +90,12 @@ input {
 
 .footer-list li {
   color: #f2f2f2;
+  opacity: 0.5;
   float: left;
   padding: 35px 20px;
   font-size: 24px;
+}
+
+.footer-list li:hover {
+  opacity: 1;
 }
