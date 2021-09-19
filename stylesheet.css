@@ -1,87 +1,38 @@
-.header-left {
-  float: left;
-  font-size: 60px;
-  font-family: idroid;
-  color: #6CA0D1;
-  margin-left: 40px;
-  margin-top: 20px;
-}
-
-.header-right li {
-  list-style: none;
-  float: right;
-  font-family: bebas neue;
-  color:black;
-  font-size: 24px;
-  padding-top: 40px;
-  padding-right: 40px;
-}
-
-.header-right li:hover {
-  color: #6CA0D1;
-}
-
-.top-wrapper img {
-  margin: 40px;
-  border-radius: 50px;
-}
-
-.top-wrapper img:hover {
-  position: relative;
-  bottom: 5px;
-}
-
-.lesson-wrapper {
-  margin-left: 436px;
-}
-
-.lesson-icon {
-  padding: 20px;
-  float: left;
-}
-
-.lesson-icon img {
-  border-radius: 50px;
-}
-
-.lesson-icon:hover {
-  position: relative;
-  bottom: 5px;
-}
-
-.contact-form {
-  padding-top: 100px;
-}
-
-.contact-form p {
-  text-align: center;
-  margin-top: 20px;
-}
-
-input {
-  background-color: #b2d8ed;
-  width: 900px;
-  margin-top: 10px;
-  margin-bottom: 60px;
-  padding: 20px;
-  font-size: 18px;
-  border: solid 5px #6CA0D1;
-  border-radius: 100px;
-}
-
-footer {
-  padding-top: 30px;
-  background-color: #6CA0D1;
-}
-
-footer p {
-  font-size: 24px;
-  font-family: idroid;
-  color: #b2d8ed;
-  padding-left: 40px;
-  padding-bottom: 40px;
-}
-
-footer p:hover {
-  color: white;
-}
+  li {
+    list-style: none;
+  }
+  
+  .header {
+    background-color: #26d0c9;
+    color: #fff;
+    height: 90px;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 48px;
+    padding: 20px 20px;
+    font-family: futura;
+  }
+  
+  .header-list li {
+    float: right;
+    padding: 40px 20px;
+    font-size: 36px;
+  }
+  
+  .main {
+    background-color: bisque;
+  }
+  
+  .copy-container h1 {
+    font-size: 140px;
+  }
+  
+  .copy-container h2 {
+    font-size: 60px;
+  }
+  
+  .copy-container span {
+    color: #ff4a4a;
+  }
