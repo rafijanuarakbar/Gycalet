@@ -1,38 +1,88 @@
-  li {
-    list-style: none;
-  }
-  
-  .header {
-    background-color: #26d0c9;
-    color: #fff;
-    height: 90px;
-  }
-  
-  .header-logo {
-    float: left;
-    font-size: 48px;
-    padding: 20px 20px;
-    font-family: futura;
-  }
-  
-  .header-list li {
-    float: right;
-    padding: 40px 20px;
-    font-size: 36px;
-  }
-  
-  .main {
-    background-color: bisque;
-  }
-  
-  .copy-container h1 {
-    font-size: 140px;
-  }
-  
-  .copy-container h2 {
-    font-size: 60px;
-  }
-  
-  .copy-container span {
-    color: #ff4a4a;
-  }
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #6a6a6a;
+  height: 100px;
+  width: 1920px
+}
+
+.header-logo {
+  float: left;
+  font-size: 48px;
+  padding: 20px 20px;
+  font-family: idroid;
+  color: #f2f2f2;
+}
+
+.header-list li {
+  color: #f2f2f2;
+  float: right;
+  padding: 35px 20px;
+  font-size: 24px;
+}
+
+.main {
+  height: 440px;
+  width: 1920px;
+  background-color: #6ca0d1;
+  padding-top: 20px;
+}
+
+.copy-container h1 {
+  font-size: 96px;
+  text-align: center;
+}
+
+.contents {
+  height: 260px;
+  width: 1920px;
+  margin-top: 40px;
+  margin-left: 530px;
+  margin-right: 530px;
+}
+
+.contents-item {
+  float: left;
+  padding-right: 20px;
+}
+
+.contents-item img {
+  border-radius: 50px;
+}
+
+.contact-form {
+  width: 1920px;
+  height: 180px;
+}
+
+input {
+  float: left;
+  margin-left: 530px;
+  border-radius: 100px;
+  width: 850px;
+  height: 60px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  border: solid 5px #6a6a6a;
+}
+
+.footer {
+  background-color: #6a6a6a;
+  color: #6ca0d1;
+  height: 100px;
+  width: 1920px;
+}
+
+.footer-list {
+  font-size: 24px;
+}
+
+.footer-list li {
+  color: #f2f2f2;
+  float: left;
+  padding: 35px 20px;
+  font-size: 24px;
+}
